@@ -19,7 +19,7 @@ function BScroll(el, options) {
   }
   // 这个dom是拥有实际高度的，比如this.wrapper的高度限定为400px，this.scroller的高度肯定是大于400
   // 只是this.wrapper设置了overflow:hidden
-  // 而better-scroll的核心就在于改变this.wrapper的transformX(水平方向),transformY(垂直方向)，
+  // 而better-scroll的核心就在于改变this.scroller的transformX(水平方向),transformY(垂直方向)，
   // 给你的错觉就是在滚动而已
   this.scroller = this.wrapper.children[0]
   if (!this.scroller) {
