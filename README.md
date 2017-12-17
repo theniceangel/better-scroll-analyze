@@ -1,2 +1,2 @@
 # better-scroll-analyze
-better-scroll源码分析
+基于version为1.5.5的better-scroll源码分析
